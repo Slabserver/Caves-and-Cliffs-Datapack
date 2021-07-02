@@ -1,66 +1,66 @@
 {
-    "config": {
-      "feature": {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
-                  "targets": [
-                    {
-                      "target": {
-                        "tag": "minecraft:stone_ore_replaceables",
-                        "predicate_type": "minecraft:tag_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:emerald_ore"
-                      }
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "tag": "minecraft:stone_ore_replaceables",
+                      "predicate_type": "minecraft:tag_match"
                     },
-                    {
-                      "target": {
-                        "tag": "minecraft:deepslate_ore_replaceables",
-                        "predicate_type": "minecraft:tag_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:deepslate_emerald_ore"
-                      }
+                    "state": {
+                      "Name": "minecraft:emerald_ore"
                     }
-                  ],
-                  "size": 3,
-                  "discard_chance_on_air_exposure": 0.0
-                },
-                "type": "minecraft:ore"
-              },
-              "decorator": {
-                "config": {
-                  "height": {
-                    "min_inclusive": {
-                      "absolute": -64
+                  },
+                  {
+                    "target": {
+                      "tag": "minecraft:deepslate_ore_replaceables",
+                      "predicate_type": "minecraft:tag_match"
                     },
-                    "max_inclusive": {
-                      "absolute": 416
-                    },
-                    "type": "minecraft:trapezoid"
+                    "state": {
+                      "Name": "minecraft:deepslate_emerald_ore"
+                    }
                   }
-                },
-                "type": "minecraft:range"
-              }
+                ],
+                "size": 3,
+                "discard_chance_on_air_exposure": 0.0
+              },
+              "type": "minecraft:ore"
             },
-            "type": "minecraft:decorated"
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "absolute": -64
+                  },
+                  "max_inclusive": {
+                    "absolute": 416
+                  },
+                  "type": "minecraft:trapezoid"
+                }
+              },
+              "type": "minecraft:range"
+            }
           },
-          "decorator": {
-            "config": {},
-            "type": "minecraft:square"
-          }
+          "type": "minecraft:decorated"
         },
-        "type": "minecraft:decorated"
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
       },
-      "decorator": {
-        "config": {
-          "count": 50
-        },
-        "type": "minecraft:count"
-      }
+      "type": "minecraft:decorated"
     },
-    "type": "minecraft:decorated"
+    "decorator": {
+      "config": {
+        "count": 50
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
   }
