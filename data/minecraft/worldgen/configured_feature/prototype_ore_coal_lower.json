@@ -35,10 +35,10 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "absolute": 0
+                    "absolute": -64
                   },
                   "max_inclusive": {
-                    "absolute": 192
+                    "absolute": 128
                   },
                   "type": "minecraft:trapezoid"
                 }

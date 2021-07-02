@@ -35,7 +35,7 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "absolute": 0
+                    "absolute": -7
                   },
                   "max_inclusive": {
                     "absolute": 63
